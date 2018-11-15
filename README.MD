@@ -1,10 +1,9 @@
-README文件作为说明文件，作用是让浏览者能够快速地了解项目。 因此，我们在写作README时，应该包括以下几点：
+QQ/微信：415491101
 
-为什么会有这个项目，介绍项目开发的背景
-项目的用途是什么，介绍项目所解决的问题
-怎样使用该项目
-项目的开发历程，版本变化(可选)
-未来的开发计划(可选)
-Q&A(可选)
-项目所使用的许可条款文件
-(我的建议是提供一份英文版的README.MD文档，让我们的项目不仅仅帮助同胞，也帮助外国人呢。)
+CSDN博客地址：https://blog.csdn.net/ShenQiXiaYang
+
+简书地址：https://www.jianshu.com/u/e5b38af1cc4e
+
+Module
+
+* mdviewpager —— [使用ViewPager+Fragment制作Material Design（MD）风格的炫酷引导页](https://blog.csdn.net/ShenQiXiaYang/article/details/84028415)
