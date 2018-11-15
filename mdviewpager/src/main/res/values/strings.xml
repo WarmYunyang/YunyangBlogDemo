@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">YunyangBlogDemo</string>
+    <string name="important_feature_description">在这里可以添加一个关于你的应用程序的重要功能的描述。</string>
+    <string name="guide_format">Page %1$d</string>
+    <string name="index">首页</string>
+    <string name="skip">跳过</string>
+    <string name="finish">跳转首页</string>
+</resources>

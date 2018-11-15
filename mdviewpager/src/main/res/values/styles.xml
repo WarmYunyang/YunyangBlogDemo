@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <style name="Base.MyTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/primary_500</item>
+        <item name="colorPrimaryDark">@color/primary_700</item>
+        <item name="colorAccent">@color/accent_500</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowActionBarOverlay">true</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/bg_light</item>
+        <!--<item name="android:windowAnimationStyle">@style/ActivityAnim</item>-->
+    </style>
+
+    <color name="bg_light">#FAFAFA</color>
+
+    <style name="MyTheme" parent="Base.MyTheme"></style>
+
+    <style name="MyTheme.Guide" parent="MyTheme"></style>
+
+    <!--
+        在A启动B时：
+        activityOpenEnterAnimation：B进入的动画
+        android:activityOpenExitAnimation：A退出的动画
+        在B后退回A时：
+        activityCloseEnterAnimation：A重新进入的动画
+        activityCloseExitAnimation：B退出的动画
+    -->
+    <style name="ActivityAnim" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/enter_anim</item>
+        <item name="android:activityOpenExitAnimation">@anim/exit_anim</item>
+        <item name="android:activityCloseEnterAnimation">@anim/close_enter_anim</item>
+        <item name="android:activityCloseExitAnimation">@anim/close_exit_anim</item>
+    </style>
+
+
+</resources>
