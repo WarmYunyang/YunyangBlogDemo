@@ -7,3 +7,4 @@ CSDN博客地址：https://blog.csdn.net/ShenQiXiaYang
 Module
 
 * mdviewpager —— [使用ViewPager+Fragment制作Material Design（MD）风格的炫酷引导页](https://blog.csdn.net/ShenQiXiaYang/article/details/84028415)
+* OperationExcelUseAndroid —— [使用jxl.jar在Android中操作Excel表格——重中之重——对隐藏表的处理](https://blog.csdn.net/ShenQiXiaYang/article/details/86478972)
