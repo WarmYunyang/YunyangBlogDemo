@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <litepal>
+        <dbname value="XRData"></dbname>
+        <version value="1"></version>
+        <list>
+            <mapping class="com.xiangrong.yunyang.dataconversion.entity.School"></mapping>
+        </list>
+    </litepal>
+</resources>
