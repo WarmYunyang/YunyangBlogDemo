@@ -172,32 +172,18 @@ public class ExcelUtils {
                     }
                 }
                 WritableSheet sheet2 = writebook.createSheet("hidesheet", 1);
+                /*
+                    隐藏表
+                    表是隐藏的，一般都是表回到大系统的时候会有这个。
+                    不能忽略，如果忽略，那么表回归大系统的时候就会报错。
+                 */
+                // 隐藏表
                 sheet2.setHidden(true);
-                sheet2.addCell(new Label(0, 0, "盘盈", arial10formatnobg));
-                sheet2.addCell(new Label(1, 0, "无盈亏", arial10formatnobg));
-                sheet2.addCell(new Label(2, 0, "盘亏", arial10formatnobg));
-                sheet2.addCell(new Label(0, 1, "盘盈", arial10formatnobg));
-                sheet2.addCell(new Label(0, 2, "无盈亏", arial10formatnobg));
-                sheet2.addCell(new Label(1, 2, "待报废", arial10formatnobg));
-                sheet2.addCell(new Label(2, 2, "挂账", arial10formatnobg));
-                sheet2.addCell(new Label(0, 3, "计入无形资产", arial10formatnobg));
-                sheet2.addCell(new Label(1, 3, "计入固定资产", arial10formatnobg));
-                sheet2.addCell(new Label(2, 3, "未入账", arial10formatnobg));
-                sheet2.addCell(new Label(0, 7, "此页签用于级联下拉框，请勿删除或修改！", arial10formatnobg));
+                sheet2.addCell(new Label(0, 0, "这是隐藏的表", arial10formatnobg));
 
+                // 一般的Excel表格都是有填写说明的
                 WritableSheet sheet3 = writebook.createSheet("填写说明", 2);
-                sheet3.addCell(new Label(0, 1, "资产分类：", arial10formatnobg));
-                sheet3.addCell(new Label(1, 1, "、“土地使用权”、“非专利技术”、“商誉以及其他财产权利”、“其他”  进行选择填列", arial10formatnobg));
-                sheet3.addCell(new Label(0, 2, "取得方式：", arial10formatnobg));
-                sheet3.addCell(new Label(1, 2, "按 “新购”、“调拨”、“接受捐赠”、“置换”、“盘盈”、“自行研制”、“其他” 选择填列", arial10formatnobg));
-                sheet3.addCell(new Label(0, 3, "价值类型：", arial10formatnobg));
-                sheet3.addCell(new Label(1, 3, "按 “原值”、“暂估值”、“重置值”、“评估值”、“无价值”、“名义金额”  选择填列", arial10formatnobg));
-                sheet3.addCell(new Label(0, 4, "取得日期/财务入账日期：", arial10formatnobg));
-                sheet3.addCell(new Label(1, 4, "日期格式按照“年-月-日”格式填写，如2015年1月2日应填写为：2015-01-02", arial10formatnobg));
-                sheet3.addCell(new Label(0, 5, "盘点结果：", arial10formatnobg));
-                sheet3.addCell(new Label(1, 5, "按 “盘盈”、“无盈亏”、“盘亏” 选择填列", arial10formatnobg));
-                sheet3.addCell(new Label(0, 6, "使用状况：", arial10formatnobg));
-                sheet3.addCell(new Label(1, 6, "按“在用”、“出租出借”、“闲置”、“其他”选择填列，针对土地、房屋（除房屋附属设施）类资产只能按“存在出租出借”、“不存在出租出借”选择填列", arial10formatnobg));
+                sheet3.addCell(new Label(0, 0, "这是填写说明的表", arial10formatnobg));
 
                 writebook.write();
                 Log.e("writeObjListToExcel", "有需要导出的数据! ");
