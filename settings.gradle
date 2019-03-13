@@ -1,1 +1,1 @@
-include ':mdviewpager', ':texttospeechdemo', 'OperationExcelUseAndroid', ':JuGuangDemo'
+include ':mdviewpager', ':texttospeechdemo', ':indexscanicon', 'OperationExcelUseAndroid', ':JuGuangDemo'

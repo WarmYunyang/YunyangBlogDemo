@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@mipmap/index_bottom_bar_dynamic_state_select" android:state_selected="true" />
+    <item android:drawable="@mipmap/index_bottom_bar_dynamic_state_un_select" />
+
+</selector>

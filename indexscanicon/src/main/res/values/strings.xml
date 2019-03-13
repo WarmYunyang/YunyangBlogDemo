@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">IndexScanIcon</string>
+    <string name="index_bottom_bar_home">首页</string>
+    <string name="index_bottom_bar_dynamic_state">动态</string>
+    <string name="index_bottom_bar_integral">积分</string>
+    <string name="index_bottom_bar_me">我的</string>
+    <string name="fragment_example_string">示例 %1$s</string>
+</resources>
