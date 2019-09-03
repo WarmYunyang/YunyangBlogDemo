@@ -42,7 +42,7 @@ dependencies {
     // ZzExcelCreator_jxl
     implementation 'com.github.zhouzhuo810:ZzExcelCreator:1.0.6'
     // ExpandableLayout
-    implementation 'com.github.SilenceDut:ExpandableLayout:1.2.0'
+    implementation 'com.github.SilenceDut:ExpandableLayout:1.3.0'
     // EventBus
     implementation 'org.greenrobot:eventbus:3.1.1'
     // BasePopup
