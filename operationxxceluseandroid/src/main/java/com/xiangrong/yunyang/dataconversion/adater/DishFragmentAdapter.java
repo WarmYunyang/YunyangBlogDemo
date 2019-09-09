@@ -1,11 +1,12 @@
 package com.xiangrong.yunyang.dataconversion.adater;
 
 import android.content.Context;
-import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
+
+import androidx.recyclerview.widget.RecyclerView;
 
 import com.silencedut.expandablelayout.ExpandableLayout;
 import com.xiangrong.yunyang.dataconversion.R;
@@ -90,27 +91,27 @@ public class DishFragmentAdapter extends RecyclerView.Adapter<DishFragmentAdapte
         private TextView mTextViewZero;
         private TextView mTextViewOne;
         private TextView mTextViewTwo;
-//        private TextView mTextViewThree;
+        //        private TextView mTextViewThree;
         private TextView mTextViewFour;
-//        private TextView mTextViewFive;
+        //        private TextView mTextViewFive;
 //        private TextView mTextViewSix;
 //        private TextView mTextViewSeven;
 //        private TextView mTextViewEight;
 //        private TextView mTextViewNine;
         private TextView mTextViewTen;
         private TextView mTextViewZeroZero;
-//        private TextView mTextViewOneOne;
+        //        private TextView mTextViewOneOne;
 //        private TextView mTextViewTwoTwo;
 //        private TextView mTextViewThreeThree;
 //        private TextView mTextViewFourFour;
 //        private TextView mTextViewFiveFive;
 //        private TextView mTextViewSixSix;
         private TextView mTextViewSevenSeven;
-//        private TextView mTextViewEightEight;
+        //        private TextView mTextViewEightEight;
         private TextView mTextViewNineNine;
         private TextView mTextViewTenTen;
         private TextView mTextViewZeroZeroZero;
-//        private TextView mTextViewOneOneOne;
+        //        private TextView mTextViewOneOneOne;
         private TextView mTextViewTwoTwoTwo;
 
         private DishHolder(final View itemView) {

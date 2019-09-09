@@ -1,12 +1,13 @@
 package com.yunyang.yunyangblogdemo.fragment;
 
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import androidx.fragment.app.Fragment;
 
 import com.yunyang.yunyangblogdemo.R;
 

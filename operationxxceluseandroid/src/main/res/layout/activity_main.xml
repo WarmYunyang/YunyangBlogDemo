@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <android.support.v7.widget.AppCompatTextView
+    <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/select_text_db_file_excel"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -16,7 +15,7 @@
         android:textSize="18sp"
         tools:ignore="HardcodedText" />
 
-    <android.support.v7.widget.LinearLayoutCompat
+    <androidx.appcompat.widget.LinearLayoutCompat
         android:id="@+id/linear_one"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -26,7 +25,7 @@
         android:layout_marginRight="50dp"
         android:orientation="horizontal">
 
-        <android.support.v7.widget.AppCompatButton
+        <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btn_import"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -36,7 +35,7 @@
             android:textAllCaps="false"
             tools:ignore="HardcodedText" />
 
-        <android.support.v7.widget.AppCompatButton
+        <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btn_export"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -47,9 +46,9 @@
             android:textAllCaps="false"
             tools:ignore="HardcodedText,RtlHardcoded" />
 
-    </android.support.v7.widget.LinearLayoutCompat>
+    </androidx.appcompat.widget.LinearLayoutCompat>
 
-    <android.support.v7.widget.LinearLayoutCompat
+    <androidx.appcompat.widget.LinearLayoutCompat
         android:id="@+id/linear_three"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -60,7 +59,7 @@
         android:gravity="center"
         android:orientation="horizontal">
 
-        <android.support.v7.widget.AppCompatButton
+        <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btn_delete"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -70,7 +69,7 @@
             android:textAllCaps="false"
             tools:ignore="HardcodedText" />
 
-        <android.support.v7.widget.AppCompatButton
+        <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btn_query"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -81,6 +80,6 @@
             android:textAllCaps="false"
             tools:ignore="HardcodedText,RtlHardcoded" />
 
-    </android.support.v7.widget.LinearLayoutCompat>
+    </androidx.appcompat.widget.LinearLayoutCompat>
 
 </RelativeLayout>

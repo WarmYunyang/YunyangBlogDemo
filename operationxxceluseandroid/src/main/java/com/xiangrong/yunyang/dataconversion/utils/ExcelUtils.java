@@ -1,11 +1,15 @@
 package com.xiangrong.yunyang.dataconversion.utils;
 
+import android.content.Context;
+import android.util.Log;
+
+import com.xiangrong.yunyang.dataconversion.entity.School;
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.lang.reflect.Method;
-import java.sql.Struct;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -18,12 +22,6 @@ import jxl.write.WritableFont;
 import jxl.write.WritableSheet;
 import jxl.write.WritableWorkbook;
 import jxl.write.WriteException;
-
-import android.content.Context;
-import android.util.Log;
-import android.widget.Toast;
-
-import com.xiangrong.yunyang.dataconversion.entity.School;
 
 /**
  * 作者    yunyang

@@ -1,5 +1,6 @@
 package com.xiangrong.yunyang.dataconversion.utils;
 
+import android.annotation.SuppressLint;
 
 import java.io.UnsupportedEncodingException;
 import java.net.URLEncoder;
@@ -10,9 +11,6 @@ import java.util.Arrays;
 import java.util.Date;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-
-import android.annotation.SuppressLint;
-import android.util.Log;
 
 /**
  * 作者    yunyang

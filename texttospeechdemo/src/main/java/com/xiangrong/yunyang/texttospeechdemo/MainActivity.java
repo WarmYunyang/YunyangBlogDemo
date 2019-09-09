@@ -2,12 +2,13 @@ package com.xiangrong.yunyang.texttospeechdemo;
 
 import android.os.Bundle;
 import android.speech.tts.TextToSpeech;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.AppCompatButton;
-import android.support.v7.widget.AppCompatEditText;
 import android.text.TextUtils;
 import android.view.View;
 import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.AppCompatButton;
+import androidx.appcompat.widget.AppCompatEditText;
 
 import java.util.Locale;
 

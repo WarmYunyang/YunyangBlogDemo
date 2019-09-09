@@ -2,7 +2,6 @@ package com.xiangrong.yunyang.dataconversion.view.popup;
 
 import android.content.Context;
 import android.os.AsyncTask;
-import android.util.Log;
 import android.view.Gravity;
 import android.view.View;
 import android.view.animation.Animation;
@@ -11,12 +10,11 @@ import android.widget.ExpandableListView;
 import com.xiangrong.yunyang.dataconversion.R;
 import com.xiangrong.yunyang.dataconversion.adater.MyBaseExpandableListAdapter;
 import com.xiangrong.yunyang.dataconversion.entity.ExpandMessage;
-import com.xiangrong.yunyang.dataconversion.entity.UnderWayFileLists;
 import com.xiangrong.yunyang.dataconversion.entity.GroupExpand;
 import com.xiangrong.yunyang.dataconversion.entity.ItemExpand;
 import com.xiangrong.yunyang.dataconversion.entity.School;
+import com.xiangrong.yunyang.dataconversion.entity.UnderWayFileLists;
 import com.xiangrong.yunyang.dataconversion.utils.FileUtil;
-import com.xiangrong.yunyang.dataconversion.utils.StrUtil;
 
 import org.greenrobot.eventbus.EventBus;
 import org.litepal.LitePal;

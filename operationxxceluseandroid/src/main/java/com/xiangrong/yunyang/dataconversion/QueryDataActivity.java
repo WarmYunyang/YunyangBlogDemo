@@ -1,19 +1,18 @@
 package com.xiangrong.yunyang.dataconversion;
 
 import android.os.AsyncTask;
-import android.support.design.widget.TabLayout;
-import android.support.v4.app.Fragment;
-import android.support.v4.view.ViewPager;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
-import android.widget.Toast;
 
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.Fragment;
+import androidx.viewpager.widget.ViewPager;
+
+import com.google.android.material.tabs.TabLayout;
 import com.xiangrong.yunyang.dataconversion.adater.QueryDataAdapter;
 import com.xiangrong.yunyang.dataconversion.entity.CurrentFileName;
 import com.xiangrong.yunyang.dataconversion.entity.School;
 import com.xiangrong.yunyang.dataconversion.fragment.FragmentDish;
-import com.xiangrong.yunyang.dataconversion.view.dialog.LoadingDialog;
 
 import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;

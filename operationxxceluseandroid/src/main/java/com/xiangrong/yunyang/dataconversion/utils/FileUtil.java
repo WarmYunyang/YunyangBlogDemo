@@ -33,13 +33,8 @@ import static com.xiangrong.yunyang.dataconversion.App.getContext;
 
 /**
  * @author xiaobaiyang QQ:415491101
- * @name FestEc
  * @class name：com.xiaobaiyang.latte_core.app.util.file
- * @class describe
  * @time 2018/6/9 11:28
- * @change
- * @chang time
- * @class describe
  */
 public final class FileUtil {
 

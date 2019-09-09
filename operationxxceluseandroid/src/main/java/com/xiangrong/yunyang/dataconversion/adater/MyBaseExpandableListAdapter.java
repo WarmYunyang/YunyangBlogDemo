@@ -1,13 +1,12 @@
 package com.xiangrong.yunyang.dataconversion.adater;
 
 import android.content.Context;
-import android.support.v7.widget.AppCompatTextView;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseExpandableListAdapter;
-import android.widget.ExpandableListView;
+
+import androidx.appcompat.widget.AppCompatTextView;
 
 import com.xiangrong.yunyang.dataconversion.R;
 import com.xiangrong.yunyang.dataconversion.entity.GroupExpand;
