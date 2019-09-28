@@ -14,3 +14,4 @@ Module
 * texttospeechdemo —— [文字转化为语音Android中TextToSpeech类的简单使用](https://blog.csdn.net/ShenQiXiaYang/article/details/87794093)
 * indexscanicon —— [Android中底部tab，中间凸起按钮的效果](https://blog.csdn.net/ShenQiXiaYang/article/details/88529374)
 * onekeytopromoteqqgroup —— [Android中实现一键推广加入QQ群功能](https://blog.csdn.net/ShenQiXiaYang/article/details/100520335)
+* slidingintroscreendemo —— [使用SlidingIntroScreen快速创建引导页介绍页](https://blog.csdn.net/ShenQiXiaYang/article/details/101624805)
