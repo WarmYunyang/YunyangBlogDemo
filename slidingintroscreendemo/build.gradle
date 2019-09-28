@@ -5,8 +5,8 @@ android {
 
 
     defaultConfig {
-        applicationId "com.yunyang.guidepageslidingintro"
-        minSdkVersion 16
+        applicationId "com.yunyang.slidingintroscreendemo"
+        minSdkVersion 15
         targetSdkVersion 28
         versionCode 1
         versionName "1.0"
@@ -31,8 +31,7 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test:runner:1.2.0'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+
     // SlidingIntroScreen
     implementation 'com.matthew-tamlin:sliding-intro-screen:3.2.0'
-    // lottie-android
-    implementation 'com.airbnb.android:lottie:3.0.7'
 }

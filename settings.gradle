@@ -1,1 +1,1 @@
-include ':mdviewpager', ':texttospeechdemo', ':indexscanicon', ':onekeytopromoteqqgroup', ':guidepageslidingintro', 'operationxxceluseandroid', ':JuGuangDemo'
+include ':mdviewpager', ':texttospeechdemo', ':indexscanicon', ':onekeytopromoteqqgroup', ':guidepageslidingintro', ':slidingintroscreendemo', 'operationxxceluseandroid', ':JuGuangDemo'

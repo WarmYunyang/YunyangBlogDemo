@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">快速创建引导页/介绍页</string>
+    <string name="ac_main_launcher_success">主页面启动成功</string>
+    <string name="ac_main_clear_sp">清除进入主页面标识</string>
+</resources>
