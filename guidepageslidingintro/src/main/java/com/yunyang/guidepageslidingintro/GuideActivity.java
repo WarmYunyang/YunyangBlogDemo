@@ -40,8 +40,8 @@ public class GuideActivity extends IntroActivity {
         initEvent();
     }
 
+    // ViewPager页面监听
     private void initEvent() {
-
         mLockableViewPager.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
             @Override
             public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
@@ -60,6 +60,12 @@ public class GuideActivity extends IntroActivity {
         });
     }
 
+    /**
+     * 动画运行与ViewPager联动
+     *
+     * @param position       ViewPager当前页
+     * @param positionOffset ViewPager下一页
+     */
     private void setAnimationProgress(int position, float positionOffset) {
         float startProgress = animationTimes[position];
         float endProgress = animationTimes[position + 1];
@@ -77,6 +83,9 @@ public class GuideActivity extends IntroActivity {
         return start + t * (end - start);
     }
 
+    /**
+     * 使用反射操作ViewPagerScroller
+     */
     private void setViewPagerScroller() {
         try {
             Field scrollerField = ViewPager.class.getDeclaredField("mScroller");
@@ -97,6 +106,7 @@ public class GuideActivity extends IntroActivity {
         }
     }
 
+    // SlidingIntroScreen中IntroActivity的抽象方法_生成活动页面
     @Override
     protected Collection<? extends Fragment> generatePages(Bundle savedInstanceState) {
         final ArrayList<Fragment> pages = new ArrayList<>();
@@ -107,6 +117,7 @@ public class GuideActivity extends IntroActivity {
         return pages;
     }
 
+    // SlidingIntroScreen中IntroActivity的抽象方法_按钮行为
     @Override
     protected IntroButton.Behaviour generateFinalButtonBehaviour() {
         return new IntroButton.Behaviour() {

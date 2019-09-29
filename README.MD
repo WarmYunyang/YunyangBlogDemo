@@ -15,3 +15,4 @@ Module
 * indexscanicon —— [Android中底部tab，中间凸起按钮的效果](https://blog.csdn.net/ShenQiXiaYang/article/details/88529374)
 * onekeytopromoteqqgroup —— [Android中实现一键推广加入QQ群功能](https://blog.csdn.net/ShenQiXiaYang/article/details/100520335)
 * slidingintroscreendemo —— [使用SlidingIntroScreen快速创建引导页介绍页](https://blog.csdn.net/ShenQiXiaYang/article/details/101624805)
+* guidepageslidingintro —— [Android中使用Lottie实现炫酷的引导页/介绍页](https://blog.csdn.net/ShenQiXiaYang/article/details/101677245)
